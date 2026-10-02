@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trail Club - Routes</title>
+</head>
+<body>
+
+    
+    <h1>Trail Club</h1>
+    <p>Student hiking club - Classroom example</p>
+    
+    <p>
+        <a href="index.html">Home</a> 
+        <a href="index2.html">Routes</a> 
+        <a href="index3.html">Apply for a trip</a>
+    </p>
+    <p><a href="index.html">Home</a> → Routes → Apllication</p>
+    <h2>Trip apllication</h2>
+    <p>This is a practice from.It does not send or store information.</p>
+    <fieldset>
+        <h3>1. Participant</h3>
+        <label>Full name*</label><br>
+        <input type="text" required><br><br>
+
+        <label>Email*</label><br>
+        <input type="text" required><br><br>
+
+        <label>Student group</label><br>
+        <input type="text" required><br><br>
+        
+        <h3>2. Trip choice</h3>
+        
+        <label>Route *</label><br>
+        <select required>
+            <option value="">Choose a route</option>
+            <option value="river-walk">River Walk</option>
+            <option value="forest-trail">Forest Trail</option>
+            <option value="ridge-view">Ridge View</option>
+        </select><br><br>
+        
+        <label>Preferred date *</label><br>
+        <input type="date" required><br><br>
+        
+        <label>Number of participants (1-4)</label><br>
+        <input type="number" value="1" min="1" max="4">
+
+        <hr>
+
+        
+        <h3>3. Experience</h3>
+        
+        <input type="radio" id="beginner" name="experience" value="beginner">
+        <label for="beginner">Beginner</label><br>
+        
+        <input type="radio" id="regular" name="experience" value="regular">
+        <label for="regular">I hike regularly</label><br><br>
+        
+        <label>Equipment I have:</label><br>
+        <input type="checkbox" id="shoes"> <label for="shoes">Walking shoes</label><br>
+        <input type="checkbox" id="water"> <label for="water">Water bottle</label><br>
+        <input type="checkbox" id="jacket"> <label for="jacket">Jacket</label><br><br>
+        
+        <label>Questions or notes</label><br>
+        <textarea rows="4" cols="40"></textarea><br><br>
+
+        
+        <input type="checkbox" id="terms" required> 
+        <label for="terms">I have read the route description *</label><br><br>
+
+        
+        <input type="submit" value="Send application" disabled> 
+        <input type="reset" value="Reset form"><br><br>
+        
+        <p><small>* Required fields. Sending remains disabled until a handler is connected.</small></p>
+
+    </form>
+
+    <hr>
+
+    
+    <p>Trail Club - Fictional trips and prices for HTML practice</p>
+    <p><a href="#">Back to top ↑</a></p>
+    </fieldset>
+
+</body>
+</html>
